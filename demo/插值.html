@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/vue.js"></script>
+    <style>
+        .red {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <h1 :class="{'red':red}">{{number}}</h1>
+    <button @click="btnClick()">点击++</button>
+</div>
+</body>
+<script>
+    const vm = new Vue({
+        el: "#app",
+        data() {
+            return {
+                red: true,
+                number: 0
+            }
+        },
+        methods: {
+            btnClick() {
+                this.number++
+            }
+        }
+    })
+</script>
+</html>
