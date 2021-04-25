@@ -12,6 +12,13 @@
 
 <div id="app">
     <button-click></button-click>
+    <post title="hello world"></post>
+    <post title="hello world2"></post>
+    <ul>
+        <li v-for="item in postList">
+            <post-bar v-bind:post-info="item"></post-bar>
+        </li>
+    </ul>
 </div>
 <script>
     Vue.component("button-click", {
@@ -27,12 +34,51 @@
         },
         template: `
           <div>
-            <button @click="butAdd()">click</button>
-            <span> number:{{ number }}</span>
+          <button @click="butAdd()">click</button>
+          <span> number:{{ number }}</span>
           </div>`
     })
+    Vue.component("post", {
+        props: ['title'],
+        template: `
+          <div>
+          <h1>{{ title }}</h1>
+          </div>
+        `
+    })
+
+    Vue.component("post-bar", {
+        props: ['postInfo'],
+        template: `
+          <div>
+          <h1>{{ postInfo.id }} : {{ postInfo.title }}</h1>
+          </div>
+        `
+    })
     let vm = new Vue({
-        el: "#app"
+        el: "#app",
+        data() {
+            return {
+                postList: [
+                    {
+                        id: 1,
+                        title: 'jack1'
+                    },
+                    {
+                        id: 2,
+                        title: 'jack2'
+                    },
+                    {
+                        id: 3,
+                        title: 'jack3'
+                    },
+                    {
+                        id: 4,
+                        title: 'jack4'
+                    },
+                ]
+            }
+        }
     })
 </script>
 </body>
