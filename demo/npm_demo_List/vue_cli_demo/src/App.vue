@@ -25,7 +25,9 @@
               style="color: black"
           ></Props>
         </el-tab-pane>
-        <el-tab-pane label="event" name="third">event</el-tab-pane>
+        <el-tab-pane label="event" name="third">
+          <Event :name="eventInfo" @change="handleChange"></Event>
+        </el-tab-pane>
         <el-tab-pane label="slot" name="fourth">slot</el-tab-pane>
       </el-tabs>
     </template>
@@ -35,6 +37,7 @@
 <script>
 import TodoItem from "@/components/TodoItem";
 import Props from "@/components/Props";
+import Event from "@/components/Event";
 
 export default {
   name: 'App',
@@ -43,7 +46,8 @@ export default {
       activeName: "first",
       info: "",
       list: [],
-      type: "success"
+      type: "success",
+      eventInfo: ""
     }
   },
   methods: {
@@ -51,10 +55,14 @@ export default {
       this.list.push(this.info)
       this.info = ''
     },
+    handleChange(value) {
+      this.eventInfo = value
+    }
   },
   components: {
     TodoItem,
-    Props
+    Props,
+    Event
   }
 }
 </script>
