@@ -28,7 +28,28 @@
         <el-tab-pane label="event" name="third">
           <Event :name="eventInfo" @change="handleChange"></Event>
         </el-tab-pane>
-        <el-tab-pane label="slot" name="fourth">slot</el-tab-pane>
+        <el-tab-pane label="slot" name="fourth">
+          <h2>2.6 新语法</h2>
+          <SlotDemo>
+            <template v-slot:default>
+              <p>default slot</p>
+            </template>
+            <template v-slot:title>
+              <p>title slot1</p>
+              <p>title slot2</p>
+            </template>
+            <template v-slot:item="props">
+              <p>item:{{ props }}</p>
+            </template>
+          </SlotDemo>
+          <h2>2.6以下 老语法</h2>
+          <SlotDemo>
+            <p slot="default">default slot</p>
+            <p slot="title">title slot1</p>
+            <p slot="title">title slot2</p>
+            <p slot="item" slot-scope="prop">item:{{ prop }}</p>
+          </SlotDemo>
+        </el-tab-pane>
       </el-tabs>
     </template>
   </div>
@@ -38,6 +59,7 @@
 import TodoItem from "@/components/TodoItem";
 import Props from "@/components/Props";
 import Event from "@/components/Event";
+import SlotDemo from "@/components/Slot";
 
 export default {
   name: 'App',
@@ -62,13 +84,13 @@ export default {
   components: {
     TodoItem,
     Props,
-    Event
+    Event,
+    SlotDemo
   }
 }
 </script>
 
 <style>
 #app {
-
 }
 </style>
