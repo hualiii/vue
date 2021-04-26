@@ -6,11 +6,14 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="js/vue.js"></script>
+    <script src="../js/vue.js"></script>
 </head>
 <body>
 <div id="app">
-    <div v-bind:style="[styleObj1,styleObj2]"></div>
+    <div v-if="type =='A'">A</div>
+    <div v-else-if="type == 'B'">B</div>
+    <div v-else-if="type == 'C'">C</div>
+    <div v-else>NOT A B C</div>
 </div>
 </body>
 <script>
@@ -18,15 +21,10 @@
         el: "#app",
         data() {
             return {
-                styleObj1: {
-                    color: "red",
-                    fontSize: "30px"
-                },
-                styleObj2: {
-                    display: "flex"
-                }
+                type: "A"
             }
-        }
+        },
+
     })
 </script>
 </html>
