@@ -3,13 +3,16 @@
     <input type="text" v-model="info">
     <button @click="addInfo">添加</button>
     <ul>
-      <TodoItem v-for="(item,index) in list" :item="item" :key="index"></TodoItem>
+      <TodoItem v-for="(item,index) in list" :key="index">
+        <template v-slot:item>
+          <span style="font-size: 30px">{{ item }}</span>
+        </template>
+      </TodoItem>
     </ul>
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 import TodoItem from "@/components/TodoItem";
 
 export default {
@@ -27,7 +30,6 @@ export default {
     }
   },
   components: {
-    // HelloWorld
     TodoItem
   }
 }
@@ -35,5 +37,6 @@ export default {
 
 <style>
 #app {
+
 }
 </style>
