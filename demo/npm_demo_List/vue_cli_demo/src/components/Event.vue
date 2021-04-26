@@ -6,7 +6,7 @@
     <br>
     <br>
     <div @click="handleDivClick">
-      <button @click="handleChange">重置成功</button>
+      <button @click="handleClick">重置成功</button>
       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
       <button @click.stop="handleClick">重置失败</button>
     </div>
