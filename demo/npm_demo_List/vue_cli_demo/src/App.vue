@@ -1,26 +1,34 @@
 <template>
   <div id="app">
-    <input type="text" v-model="info">
-    <button @click="addInfo">添加</button>
-    <ul>
-      <TodoItem v-for="(item,index) in list" :key="index">
-        <template v-slot:item="propObj">
-          <span :style="{fontSize: '30px',color:propObj.checked?'red':'blue'}">{{ item }}</span>
-        </template>
-      </TodoItem>
-    </ul>
-    <hr>
-    <h1>props</h1>
-    <Props
-        name="hello vue"
-        :type="type"
-        :is-visible="false"
-        :list="list"
-        title="props demo"
-        class="test1"
-        :style="{fontSize: '20px'}"
-        style="color: #42b983"
-    ></Props>
+    <template>
+      <el-tabs v-model="activeName">
+        <el-tab-pane label="todolist" name="first">
+          <input type="text" v-model="info">
+          <button @click="addInfo">添加</button>
+          <ul>
+            <TodoItem v-for="(item,index) in list" :key="index">
+              <template v-slot:item="propObj">
+                <span :style="{fontSize: '30px',color:propObj.checked?'black':'red'}">{{ item }}</span>
+              </template>
+            </TodoItem>
+          </ul>
+        </el-tab-pane>
+        <el-tab-pane label="props" name="second">
+          <Props
+              name="hello vue"
+              :type="type"
+              :is-visible="false"
+              :list="list"
+              title="props demo"
+              class="test1"
+              :style="{fontSize: '20px'}"
+              style="color: black"
+          ></Props>
+        </el-tab-pane>
+        <el-tab-pane label="event" name="third">event</el-tab-pane>
+        <el-tab-pane label="slot" name="fourth">slot</el-tab-pane>
+      </el-tabs>
+    </template>
   </div>
 </template>
 
@@ -32,6 +40,7 @@ export default {
   name: 'App',
   data() {
     return {
+      activeName: "first",
       info: "",
       list: [],
       type: "success"
@@ -41,7 +50,7 @@ export default {
     addInfo() {
       this.list.push(this.info)
       this.info = ''
-    }
+    },
   },
   components: {
     TodoItem,
