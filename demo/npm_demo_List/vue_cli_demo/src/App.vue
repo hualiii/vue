@@ -50,6 +50,15 @@
             <p slot="item" slot-scope="prop">item:{{ prop }}</p>
           </SlotDemo>
         </el-tab-pane>
+        <el-tab-pane label="BigProps" name="fifth">
+          <BigProps
+              :name="bigPropsName"
+              :on-change="handleBigPropChange"
+              :slot-default="getDefault()"
+              :slot-title="getTitle()"
+              :slot-scope-item="getItem"
+          ></BigProps>
+        </el-tab-pane>
       </el-tabs>
     </template>
   </div>
@@ -60,6 +69,8 @@ import TodoItem from "@/components/TodoItem";
 import Props from "@/components/Props";
 import Event from "@/components/Event";
 import SlotDemo from "@/components/Slot";
+import BigProps from "@/components/BigProps";
+
 
 export default {
   name: 'App',
@@ -69,7 +80,8 @@ export default {
       info: "",
       list: [],
       type: "success",
-      eventInfo: ""
+      eventInfo: "",
+      bigPropsName: "bigPropsName",
     }
   },
   methods: {
@@ -79,13 +91,26 @@ export default {
     },
     handleChange(value) {
       this.eventInfo = value
+    },
+    handleBigPropChange(value) {
+     this.bigPropsName = value
+    },
+    getDefault() {
+      return [this.$createElement('p', 'default slot')]
+    },
+    getTitle() {
+      return [this.$createElement('p', 'title slot1'), this.$createElement('p', 'title slot2')]
+    },
+    getItem(props) {
+      return [this.$createElement('p', `item slot-scope ${JSON.stringify(props)}}`)]
     }
   },
   components: {
     TodoItem,
     Props,
     Event,
-    SlotDemo
+    SlotDemo,
+    BigProps
   }
 }
 </script>
