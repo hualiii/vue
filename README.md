@@ -1,4 +1,4 @@
-# geektime
+# vue
 
 ## Project setup
 ```
