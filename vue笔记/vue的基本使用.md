@@ -1,8 +1,6 @@
-## vue的基本概念
+## class和style的基本绑定
 
-### class和style的基本绑定
-
-#### class 绑定方法
+### class 绑定方法
 
 > class 对象绑定
 
@@ -12,7 +10,7 @@
   v-bind:class="{ active: isActive, 'text-danger': hasError }"
 ></div>
 ```
-```js
+```
 data: {
   classObject: {
     active: true,
@@ -27,7 +25,7 @@ data: {
 <div v-bind:class="[activeClass, errorClass]"></div>
 ```
 
-```js
+```
 data: {
   activeClass: 'active',
   errorClass: 'text-danger'
@@ -41,7 +39,7 @@ data: {
 ```html
 <div v-bind:class="classObject"></div>
 ```
-```js
+```
 data: {
   classObject: {
     active: true,
@@ -50,7 +48,7 @@ data: {
 }
 ```
 
-```js
+```
 data: {
   isActive: true,
   error: null
@@ -81,17 +79,16 @@ computed: {
 
 当在一个自定义组件上使用 class property 时，这些 class 将被添加到`该组件的根元素上面`。这个元素上`已经存在的 class 不会被覆盖`。
 
-#### style 绑定方法
+### style 绑定方法
 
 > style 对象绑定
 
 ```html
 <div v-bind:style="{ color: activeColor, fontSize: fontSize + 'px' }"></div>
 ```
-```js
-data: {
-  activeColor: 'red',
-  fontSize: 30
+```jsdata: {
+    activeColor: 'red',
+        fontSize: 30
 }
 ```
 
@@ -103,3 +100,205 @@ v-bind:style 的数组语法可以将多个样式对象应用到同一个元素�
 ```html
 <div v-bind:style="[baseStyles, overridingStyles]"></div>
 ```
+
+## 计算属性和侦听器
+
+> computed
+
+有缓存 有getter 和 setter 方法 简写形式省去 setter方法
+
+getter的调用:
+
+1. 初始化
+2. 所依赖data的改变
+
+
+> methods
+
+方法函数 无缓存
+
+> watch
+
+监听方法 
+
+```js
+let vm = new Vue({
+    el:"#app",
+    data(){
+        return{
+            age:18,
+            book:{
+                id:1,
+                name:"三国演义",
+                author:"罗贯中"
+            }
+        }
+    },
+    watch:{
+        age:{
+            immediate:true,
+            handler(newValue,oldValue){
+                
+            }
+        },
+        //检测多级属性某个的变化
+        'book.id':{
+            handler(newValue,oldValue){
+
+            }
+        },
+        book:{
+            deep:true,
+            handler(newValue,oldValue){
+
+            }
+        }
+    }
+})
+// 监听方法第二种使用
+vm.$watch('age',{
+    immediate:true,
+    handler(newValue,oldValue){
+
+    }
+})
+```
+
+配置参数:
++ handler 监听属性改变的回调函数
++ deep 监听引用类型内部值改变
++ immediate 监听后立即调用
+
+简写方法
+```
+  watch: {
+    // 如果 `question` 发生改变，这个函数就会运行
+    question: function (newQuestion, oldQuestion) {
+      this.answer = 'Waiting for you to stop typing...'
+      this.debouncedGetAnswer()
+    }
+  },
+```
+
+
+
+
+## 列表渲染
+
+> 遍历数组
+
+```html
+<ul v-for="(book,index) in books" :key="index">
+    <li>{{index}} : {{book}}</li>
+</ul>
+```
+```js
+let vm = new Vue({
+    el:"#app",
+    data(){
+        return{
+            books:["红楼梦","西游记","三国演义","水浒传"]
+        }
+    }
+})
+```
+> 遍历对象
+
+```html
+<ul v-for="(book,name,index) in book">
+    <li>{{index}} + {{name}} + {{book}}</li>
+</ul>
+```
+```js
+let vm = new Vue({
+    el:"#app",
+    data(){
+        return{
+            book:{
+                id:1,
+                name:"三国演义",
+                author:"罗贯中"
+            }
+        }
+    }
+})
+```
+> 变更方法
+
++  push()
++  pop()
++  shift()
++  unshift()
++  splice()
++  sort()
++  reverse()
+
+
+## 事件处理
+
+
+
+> v-on:eventName="methodName"
+
+语法糖 @eventName="methodName"
+
+event 参数 可以使用 vue 内置 $event传入
+
+> 事件修饰符
+
++ .stop
++ .prevent
++ .capture
++ .self
++ .once
++ .passive
+
+> 按键修饰符
++ .enter
++ .tab
++ .delete (捕获“删除”和“退格”键)
++ .esc
++ .space
++ .up
++ .down
++ .left
++ .right
+
+## 表单输入绑定
+
+> v-model
+
++ 文本 `<input type="checkbox" id="checkbox" v-model="checked">`
++ 多行文本 `<textarea v-model="message" placeholder="add multiple lines"></textarea>`
++ 复选框 `<input type="checkbox" id="checkbox" v-model="checked">`
++ 单选按钮
+```html
+<div id="example-4">
+  <input type="radio" id="one" value="One" v-model="picked">
+  <label for="one">One</label>
+  <br>
+  <input type="radio" id="two" value="Two" v-model="picked">
+  <label for="two">Two</label>
+  <br>
+  <span>Picked: {{ picked }}</span>
+</div>
+```
++ 选择框
+
+```html
+<div id="example-5">
+  <select v-model="selected">
+    <option disabled value="">请选择</option>
+    <option>A</option>
+    <option>B</option>
+    <option>C</option>
+  </select>
+  <span>Selected: {{ selected }}</span>
+</div>
+```
+
+> 修饰符
+
++ .lazy
++ .number
++ .trim
