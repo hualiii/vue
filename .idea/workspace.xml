@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eb477aa-ebfa-4607-af2c-539c9050bf1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vue笔记/2.Vue的生命周期钩子函数" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/移动端笔记/1.基础知识笔记.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue笔记/1.Vue的基本使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue笔记/1.Vue的基本使用.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,12 @@
       <workItem from="1630480856133" duration="4188000" />
       <workItem from="1630546898133" duration="6501000" />
       <workItem from="1630573621122" duration="1270000" />
-      <workItem from="1630635075011" duration="1743000" />
+      <workItem from="1630635075011" duration="5690000" />
+      <workItem from="1630658122902" duration="296000" />
+      <workItem from="1630658430419" duration="120000" />
+      <workItem from="1630658558841" duration="2329000" />
+      <workItem from="1630916071308" duration="574000" />
+      <workItem from="1630916659705" duration="311000" />
     </task>
     <servers />
   </component>
