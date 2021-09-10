@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eb477aa-ebfa-4607-af2c-539c9050bf1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vue_test/7.vue_全局事件总线的基本使用/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/7.vue_全局事件总线的基本使用/components/School.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/7.vue_全局事件总线的基本使用/components/Student.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/7.vue_全局事件总线的基本使用/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/demo/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/demo/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/src/components/School.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/src/components/Student.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue_test/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue_test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/component/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/demo/component/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/component/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/demo/component/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/component/Item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/demo/component/Item.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/component/List.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/demo/component/List.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue笔记/1.Vue的基本使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue笔记/1.Vue的基本使用.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +75,7 @@
       <workItem from="1631086089334" duration="1131000" />
       <workItem from="1631087232953" duration="3178000" />
       <workItem from="1631154861102" duration="10610000" />
-      <workItem from="1631239744310" duration="4193000" />
+      <workItem from="1631239744310" duration="6972000" />
     </task>
     <servers />
   </component>
