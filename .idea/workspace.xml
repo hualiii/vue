@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eb477aa-ebfa-4607-af2c-539c9050bf1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vue_test/11.vue_todo_list使用nextTick/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/11.vue_todo_list使用nextTick/component/Item.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/11.vue_todo_list使用nextTick/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/src/components/Hello.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/src/components/Hello2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/src/components/Hello3.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/demo2/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/demo2/components/School.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/demo2/components/Student.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/demo2/main.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vue_test/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/src/component/Item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/src/component/Item.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/component/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/11.vue_todo_list使用nextTick/component/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/component/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/11.vue_todo_list使用nextTick/component/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/component/Item.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/component/List.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/11.vue_todo_list使用nextTick/component/List.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue笔记/1.Vue的基本使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue笔记/1.Vue的基本使用.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +79,7 @@
       <workItem from="1631086089334" duration="1131000" />
       <workItem from="1631087232953" duration="3178000" />
       <workItem from="1631154861102" duration="10610000" />
-      <workItem from="1631239744310" duration="8091000" />
+      <workItem from="1631239744310" duration="14494000" />
     </task>
     <servers />
   </component>
