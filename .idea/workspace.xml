@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eb477aa-ebfa-4607-af2c-539c9050bf1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vue笔记/2.Vue的生命周期钩子函数" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/移动端笔记/1.基础知识笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/7.vue_全局事件总线的基本使用/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/7.vue_全局事件总线的基本使用/components/School.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/7.vue_全局事件总线的基本使用/components/Student.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/7.vue_全局事件总线的基本使用/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue笔记/1.Vue的基本使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue笔记/1.Vue的基本使用.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -31,9 +42,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vue_test" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vue_test" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -54,6 +70,10 @@
       <workItem from="1630658558841" duration="2329000" />
       <workItem from="1630916071308" duration="574000" />
       <workItem from="1630916659705" duration="311000" />
+      <workItem from="1631086089334" duration="1131000" />
+      <workItem from="1631087232953" duration="3178000" />
+      <workItem from="1631154861102" duration="10610000" />
+      <workItem from="1631239744310" duration="4193000" />
     </task>
     <servers />
   </component>

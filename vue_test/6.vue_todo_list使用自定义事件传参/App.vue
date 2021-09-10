@@ -1,7 +1,7 @@
 <template>
   <div  id="app">
     <Header @addTodo="addTodo"></Header>
-    <List :todos="todos" @deleteTodo="deleteTodo"></List>
+    <List :todos="todos" :deleteTodo="deleteTodo"></List>
     <Footer :todos="todos" @checkAllTodos="checkAllTodos" @clearAll="clearAll"></Footer>
   </div>
 </template>
@@ -35,9 +35,6 @@ export default {
     Header,
     List,
     Footer
-  },
-  mounted() {
-    this.$bus.$on("deleteTodo",this.deleteTodo)
   },
   watch:{
     todos:{
