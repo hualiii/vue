@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eb477aa-ebfa-4607-af2c-539c9050bf1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vue_test/12.vue_动画的基本使用/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/12.vue_动画的基本使用/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/1.vue_默认卡槽的使用/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/1.vue_默认卡槽的使用/components/Container.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/1.vue_默认卡槽的使用/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/2.vue_具名卡槽的基本使用/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/2.vue_具名卡槽的基本使用/components/Container.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/2.vue_具名卡槽的基本使用/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/src/components/Container.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/components/Hello.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/12.vue_动画的基本使用/components/Hello.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/components/Hello2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/12.vue_动画的基本使用/components/Hello2.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/components/Hello3.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/12.vue_动画的基本使用/components/Hello3.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue笔记/1.Vue的基本使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue笔记/1.Vue的基本使用.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,12 +45,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vue_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用" />
       <recent name="$PROJECT_DIR$/vue_test" />
     </key>
   </component>
@@ -65,7 +79,7 @@
       <workItem from="1631154861102" duration="10610000" />
       <workItem from="1631239744310" duration="14494000" />
       <workItem from="1631497147600" duration="1088000" />
-      <workItem from="1631500363443" duration="1562000" />
+      <workItem from="1631500363443" duration="6771000" />
     </task>
     <servers />
   </component>

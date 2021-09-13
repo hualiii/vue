@@ -1,23 +1,44 @@
 <template>
 <div id="app">
-  <Hello></Hello>
+  <!--2.6以上新语法-->
+  <Container >
+    <template v-slot:default="propObj">
+      <ul>
+        <li v-for="(item,index) in propObj.game" :key="index">
+          {{item}}
+        </li>
+      </ul>
+    </template>
+  </Container>
+  <Container >
+    <template v-slot:default="{game}">
+      <ol>
+        <li v-for="(item,index) in game" :key="index">
+          {{item}}
+        </li>
+      </ol>
+    </template>
+  </Container>
   <hr>
-  <Hello2></Hello2>
-  <hr>
-  <Hello3></Hello3>
+  <!--2.6以下老语法-->
+  <Container>
+    <template scope="propObj">
+      <ul>
+        <li v-for="(item,index) in propObj.game" :key="index">
+          {{item}}
+        </li>
+      </ul>
+    </template>
+  </Container>
 </div>
 </template>
 
 <script>
-import Hello from "./components/Hello";
-import Hello2 from "./components/Hello2";
-import Hello3 from "./components/Hello3";
+import Container from "./components/Container";
 export default {
-  name: "App",
+  name:"App",
   components:{
-    Hello,
-    Hello2,
-    Hello3
+    Container
   }
 }
 </script>
