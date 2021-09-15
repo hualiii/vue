@@ -2,18 +2,19 @@
 <div id="app">
   <Count></Count>
   <hr>
-<!--  <GetterDemo></GetterDemo>-->
+  <Demo></Demo>
 </div>
 </template>
 
 <script>
 import Count from "./components/Count";
-// import GetterDemo from "./components/GetterDemo";
+import Demo from "./components/Demo";
 export default {
   name:"App",
   components:{
     Count,
     // GetterDemo
+    Demo
   }
 }
 </script>
