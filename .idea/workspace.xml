@@ -2,21 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eb477aa-ebfa-4607-af2c-539c9050bf1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vue_test/12.vue_动画的基本使用/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/12.vue_动画的基本使用/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/1.vue_默认卡槽的使用/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/1.vue_默认卡槽的使用/components/Container.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/1.vue_默认卡槽的使用/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/2.vue_具名卡槽的基本使用/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/2.vue_具名卡槽的基本使用/components/Container.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/2.vue_具名卡槽的基本使用/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/src/components/Container.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/3.vue_作用域插槽/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/3.vue_作用域插槽/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/src/components/Count.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/src/components/GetterDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/src/store/countStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/src/store/todosStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue笔记/4.vuex的基本使用.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/1.vue_默认卡槽的使用/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/1.vue_默认插槽的使用/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/1.vue_默认卡槽的使用/components/Container.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/1.vue_默认插槽的使用/components/Container.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/1.vue_默认卡槽的使用/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/1.vue_默认插槽的使用/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/2.vue_具名卡槽的基本使用/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/2.vue_具名插槽的基本使用/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/2.vue_具名卡槽的基本使用/components/Container.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/2.vue_具名插槽的基本使用/components/Container.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/2.vue_具名卡槽的基本使用/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/2.vue_具名插槽的基本使用/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue_test/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/src/components/Hello.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/12.vue_动画的基本使用/components/Hello.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/src/components/Hello2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/12.vue_动画的基本使用/components/Hello2.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/src/components/Hello3.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/12.vue_动画的基本使用/components/Hello3.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue笔记/1.Vue的基本使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue笔记/1.Vue的基本使用.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/components/Container.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用/3.vue_作用域插槽/components/Container.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,13 +32,21 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1xWMsULX8sDfKv8XlaKqHI8iWkm" />
   <component name="ProjectViewState">
@@ -79,7 +92,9 @@
       <workItem from="1631154861102" duration="10610000" />
       <workItem from="1631239744310" duration="14494000" />
       <workItem from="1631497147600" duration="1088000" />
-      <workItem from="1631500363443" duration="6771000" />
+      <workItem from="1631500363443" duration="8327000" />
+      <workItem from="1631585103915" duration="9521000" />
+      <workItem from="1631671350807" duration="7496000" />
     </task>
     <servers />
   </component>
