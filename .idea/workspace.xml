@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eb477aa-ebfa-4607-af2c-539c9050bf1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vue_test/src/components/Demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/src/components/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/src/views/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/src/views/Home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue_test/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue笔记/4.vuex的基本使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue笔记/4.vuex的基本使用.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/components/Count.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/components/Demo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/components/GetterDemo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/store/countStore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/store/todosStore.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -79,7 +89,9 @@
       <workItem from="1631497147600" duration="1088000" />
       <workItem from="1631500363443" duration="8327000" />
       <workItem from="1631585103915" duration="9521000" />
-      <workItem from="1631671350807" duration="9808000" />
+      <workItem from="1631671350807" duration="11848000" />
+      <workItem from="1631773581070" duration="2167000" />
+      <workItem from="1631775762776" duration="300000" />
     </task>
     <servers />
   </component>
