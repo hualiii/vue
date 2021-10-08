@@ -39,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vue_test/13.vue_slot的基本使用" />
+    <property name="last_opened_file_path" value="$USER_HOME$/fanfiction-web-v2" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -79,6 +79,8 @@
       <workItem from="1631773581070" duration="2167000" />
       <workItem from="1631775762776" duration="300000" />
       <workItem from="1631843832605" duration="3186000" />
+      <workItem from="1632294993806" duration="534000" />
+      <workItem from="1632296201635" duration="194000" />
     </task>
     <servers />
   </component>
