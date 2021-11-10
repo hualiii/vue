@@ -5,9 +5,9 @@
       病毒信息
     </p>
     <div class="content">
-      <p>{{ infoData.remark1 }}</p>
-      <p>{{ infoData.remark2 }}</p>
-      <p>{{ infoData.remark3 }}</p>
+      <p>{{ infoData.pxark1 }}</p>
+      <p>{{ infoData.pxark2 }}</p>
+      <p>{{ infoData.pxark3 }}</p>
       <p>{{ infoData.note1 }}</p>
       <p>{{ infoData.note2 }}</p>
       <p>{{ infoData.note3 }}</p>
@@ -31,24 +31,24 @@ export default {
 
 <style scoped>
 .info {
-  padding: 0.16rem;
+  padding: 16px;
   background: #fff;
   border-bottom: 1px solid #f1f1f1;
 }
 .title {
-  font-size: 0.17rem;
+  font-size: 17px;
 }
 
 .title i {
   display: inline-block;
-  width: 0.04rem;
-  height: 0.16rem;
-  margin-right: 0.03rem;
+  width: 4px;
+  height: 16px;
+  margin-right: 3px;
   vertical-align: middle;
   background: #4169e2;
 }
 .content {
-  padding: 0.06rem 0.16rem;
+  padding: 6px 16px;
 }
 
 .content p {
